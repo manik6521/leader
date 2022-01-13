@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: aliceblue;
+}
+header{
+    background-color: #562EFF;
+}
+.conatiner {
+    margin: auto;
+    width: 1400px;
+    background: #fff;
+}
+ul{
+    list-style: none;
+}
+img {
+    width: 58%;
+    padding: 20px;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {color: #ffff;font-family: 'Poppins';font-size: 33px;}
+h2.p-title {
+    font-weight: 500;
+    color: #562EFF;
+    padding: 11px 28px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.iteam-player img {
+    width: 56px;
+}
+
+.iteam-player {
+    display: flex;
+    align-items: center;
+}
+.iteam-player h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* blog section */
+
+.thumble img {
+    width: 224px;
+    height: 127px;
+}
+.thumble {
+    display: flex;
+    align-items: center;
+}
+h2.b-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-info p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog-info a {
+    color: #562EFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* lates Course */
+section#course {
+    margin-top: 21px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+}
+.course-banner img {
+    width: 224px;
+}
+
+.cousre-info {
+    padding-left: 22px;
+}
+.cousre-info a {
+    text-decoration: none;
+    color: #ED6B4F;
+    font-weight: 500;
+    line-height: 3;
+}
+.st-icon {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.st-icon i {
+    color: #FFC014;
+}
+
+.st-icon p {
+    padding: 0px 14px;
+}
+.time {
+    background: #FEE5DF;
+    border-radius: 20px;
+    color: #ee6d4f;
+    padding: 5px 20px;
+}
+.time i{
+    color: #ee6d4f;
+}
+.time p {
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cousre {
+    box-shadow: 0px 5.34229px 13.3557px;
+    margin: 0 41px;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
