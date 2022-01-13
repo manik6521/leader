@@ -143,3 +143,54 @@ section#course {
     border-radius: 12px;
     padding-bottom: 10px;
 }
+
+
+/* responsive */
+@media only screen and (max-width: 688px) {
+    
+    .main-section {
+        grid-template-columns: repeat(2, 299px);
+    }
+    article.blog {
+        grid-template-columns: 500px;
+        width: 680px;
+    }
+    
+    .conatiner {
+        width: 680px;
+    }
+    article.blog {
+        grid-template-columns: 500px;
+        width: 680px;
+    }
+    
+    .conatiner {
+        width: 680px;
+    }
+    
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cousre {
+        margin-bottom: 38px;
+    }article.blog {
+        grid-template-columns: 500px;
+        width: 680px;
+    }
+    
+    .conatiner {
+        width: 680px;
+    }
+    
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cousre {
+        margin-bottom: 38px;
+        margin-right: 21px;
+        margin-left: 20px;
+    }
+    
+}
